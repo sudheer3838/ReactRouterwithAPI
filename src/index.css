@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mx-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: red;
+    width: 200px;
+    box-shadow: inset;
+    gap: 3;
+}
